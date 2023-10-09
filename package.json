@@ -43,6 +43,7 @@
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
+    "up": "taze major -r -I",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
@@ -58,6 +59,7 @@
     "pnpm": "^8.8.0",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
+    "taze": "^0.11.3",
     "typescript": "^5.2.2",
     "unbuild": "^2.0.0",
     "vite": "^4.4.11",
